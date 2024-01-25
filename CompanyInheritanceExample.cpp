@@ -6,10 +6,14 @@
 #include "Manager.h"
 int main()
 {
-	Employee e1;
+	Employee e1("Peter",2000);
 
-	Manager m1;
+	Manager m1("Mary",3000,500);
 
-	m1.
+	e1.PrintInfo();
+
+	m1.PrintInfo();
+
+    
 }
 
