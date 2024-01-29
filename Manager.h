@@ -14,6 +14,7 @@ public:
 
 	Manager(string name, float salary, float bonus);
 
+	void PrintInfo();// override 
 
 
 
